@@ -45,13 +45,10 @@
 #include "../lib/readers/swf.h"
 #include "../lib/pdf/pdf.h"
 #include "../lib/log.h"
-<<<<<<< HEAD
 
 #define STRINGIFY2(s) #s
 #define STRINGIFY(s) STRINGIFY2(s)
 #define GIT_VERSION_STRING STRINGIFY(GIT_VERSION)
-=======
->>>>>>> refs/rewritten/swftools-master
 
 static gfxsource_t*driver = 0;
 
